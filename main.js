@@ -1,69 +1,97 @@
-// for (let i = 10; i <= 20; i++) {
-//   console.log(i);
-// }
+let m = "";
+let n = 20;
+for (let i = 10; i <= n; i++) {
+  m += i + (i < n ? "," : "");
+}
+console.log(m);
 
-// for (let a = 7; a <= 70; a += 7) {
-//   console.log(a);
-// }
+let b = "";
+let nv = 20;
+for (let iv = 10; iv <= nv; iv++) {
+  b += iv ** 2 + (iv < nv ? "," : "");
+}
+console.log(b);
 
-// for (let a = 10; a <= 20; a++) {
-//   console.log(a);
-//   2 + a ;
-//   console.log("//", a);
+for (let a = 7; a <= 70; a += 7) {
+  console.log(a);
+}
 
-//     console.log("////", a);
-// }
+let nm = 0;
+let xc = 0;
 
-// let n = 0;
-// let x = 0;
+while (nm < 15) {
+  nm++;
+  xc += nm;
+  console.log("//", nm);
 
-// while (n < 15) {
-//   n++;
-//   x += n;
-//   console.log("//", n);
+  console.log("////", xc);
+}
 
-//   console.log("////", x);
-// }
+let nq = 14;
+let x = 35;
 
-// let n = 0;
-// let x = 30;
-
-// while (n < 25) {
-//   n++;
-//   x += 2;
-//   console.log("//", n);
-
-//   console.log("////", x);
-// }
-
-// let n = 0;
-// let x = 100;
-
-// while (n < 33) {
-//   n++;
-//   x += 3;
-//   console.log("/n/", n);
-
-//   console.log("//x//", x);
-// }
-
-// let n = 14;
-// let x = 35;
-
-// while (n < 35) {
-//   n++;
-//   x *= n;
-//   console.log("/n/", n);
-
-//   console.log("//x//", x);
-// }
-let n = 0;
-let x = 12;
-
-while (n < 7) {
+while (n < 34) {
   n++;
-  x /= n * 12;
-  console.log("/n/", n);
+  x *= nq;
+  console.log("/n/", nq);
 
   console.log("//x//", x);
+}
+
+let t = 0;
+for (let i = 1; i <= 500; i++) {
+  t += i / 500;
+}
+console.log(t);
+
+let nk = 0;
+let xs = 30;
+
+while (nk < 25) {
+  nk++;
+  xs += 2;
+  console.log("//", nk);
+
+  console.log("////", xs);
+}
+
+let nh = 0;
+let xf = 100;
+
+while (nh < 33) {
+  nh++;
+  xf += 3;
+  console.log("/nh/", nh);
+
+  console.log("//xf//", xf);
+}
+
+for (let ti = 1; ti <= 100; ti++) {
+  if (100 % ti == 0) {
+    console.log(ti);
+  }
+}
+
+let ul = 0;
+for (let y = 1; y <= 100; y++) {
+  if (100 % y === 0 && y % 2 === 0) {
+    ul++;
+  }
+}
+console.log(ul);
+
+let yz = 0;
+for (let i = 1; i <= 10; i++) {
+  if (10 % i === 0 && i % 2 === 0) {
+    yz += i;
+  }
+}
+console.log(yz);
+
+let w;
+for (let q = 2; q <= 9; q++) {
+  for (j = 1; j <= 10; j++) {
+    w = q * j;
+    console.log(`${q} * ${j} =${w} `);
+  }
 }
